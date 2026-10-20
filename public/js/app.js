@@ -287,10 +287,58 @@
     }).join('') || '<p class="muted small">Detectives can pin a card here to share it with everyone.</p>';
 
     renderRoom(p, priv);
+    renderWhatNow(p, priv);
     renderFeedOrDelib(p, priv, phaseChanged);
     wireFeedButtons(); // the feed is rebuilt on every update, so re-wire its buttons
     renderInputBar(p, priv);
     renderPrivate(p, priv);
+  }
+
+  // One plain-English line saying what the player should do right now.
+  function whatNowText(p, priv) {
+    const you = priv.you || {};
+    const suspect = p.suspectId ? playerById(p.suspectId) : null;
+    const who = suspect ? suspect.nickname : 'the suspect';
+    switch (p.phase) {
+      case 'briefing':
+        return { text: 'Read the case file. The suspect is picked next.' };
+      case 'roles':
+        return you.isSuspect
+          ? { text: "You are the SUSPECT. Hold SPACE to read your story. Answer what's asked, and don't contradict yourself." }
+          : { text: `${who} is the SUSPECT. Hold SPACE to read your clues, then get ready to ask questions.` };
+      case 'interrogation':
+        if (you.isSuspect) {
+          return p.current
+            ? { text: p.current.polygraph ? 'POLYGRAPH: answer YES or NO, truthfully.' : 'Answer the question below before the timer runs out.', urgent: true }
+            : { text: 'Waiting for a detective to ask a question.' };
+        }
+        if (p.current && p.current.byId === you.id) return { text: 'Your question is on the table. Watch the answer.' };
+        return { text: 'Ask a question below (2 can wait in line). Use FOLLOW-UP on an answer to push a question to the front.' };
+      case 'deliberation':
+        return amDetective()
+          ? { text: 'Talk it over. Only detectives can see this chat.' }
+          : { text: 'The detectives are talking in private. Wait for the vote.' };
+      case 'vote':
+        return amDetective()
+          ? { text: 'Vote GUILTY or INNOCENT (press G or I). Majority wins. A tie counts as innocent.', urgent: true }
+          : { text: 'The detectives are voting in secret.' };
+      case 'reveal':
+      case 'scoreboard':
+        return { text: 'Results are in. The truth is revealed.' };
+      case 'final':
+        return { text: 'Case closed. Host can press PLAY AGAIN to start over.' };
+      default:
+        return { text: '' };
+    }
+  }
+
+  function renderWhatNow(p, priv) {
+    const box = $('what-now');
+    if (!box) return;
+    const info = whatNowText(p, priv);
+    box.textContent = info.text;
+    box.classList.toggle('urgent', Boolean(info.urgent));
+    box.classList.toggle('hidden', !info.text);
   }
 
   function renderRoom(p, priv) {
@@ -570,7 +618,7 @@
     if (mode === 'ask') {
       const queue = p.queue.map((q) => {
         const who = nameOf(q.byId);
-        return `<span class="chip${q.followUp ? ' amber' : ''}" title="${esc(q.text)}">${q.followUp ? 'FOLLOW-UP · ' : ''}${esc(who)}: ${esc(q.text.slice(0, 28))}${q.text.length > 28 ? '…' : ''}</span>`;
+        return `<span class="chip${q.followUp ? ' amber' : ''}" title="${esc(q.text)}">${q.followUp ? 'FOLLOW-UP · ' : ''}${who}: ${esc(q.text.slice(0, 28))}${q.text.length > 28 ? '…' : ''}</span>`;
       }).join('');
       const fu = S.followUpOf
         ? `<span class="chip amber">Following up on an answer <button class="icon-btn" id="fu-cancel" title="Cancel">✕</button></span>`
@@ -1049,6 +1097,15 @@
       Sound.setVolume(Number(e.target.value) / 100);
       if (Sound.muted) toggleMute();
     });
+
+    // How-to-play panel (from the landing page and the lobby).
+    const openHowTo = () => $('howto').classList.remove('hidden');
+    const closeHowTo = () => $('howto').classList.add('hidden');
+    $('btn-howto').addEventListener('click', openHowTo);
+    $('btn-howto-lobby').addEventListener('click', openHowTo);
+    $('howto-close').addEventListener('click', closeHowTo);
+    $('howto').addEventListener('click', (e) => { if (e.target.id === 'howto') closeHowTo(); });
+    window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeHowTo(); });
 
     // Unlock audio on the first gesture anywhere.
     const unlock = () => { Sound.unlock(); window.removeEventListener('pointerdown', unlock); window.removeEventListener('keydown', unlock); };

@@ -438,3 +438,17 @@ kbd { border: 1px solid #3a4560; border-bottom-width: 2px; border-radius: 4px; p
 
 /* ---------- Small windows: still readable ---------- */
 @media (max-height: 700px) { body { overflow: hidden; } }
+
+/* ---------- How to play + "what to do now" guidance ---------- */
+.howto { position: fixed; inset: 0; z-index: 1002; background: rgba(2,3,8,.85); display: flex; align-items: center; justify-content: center; padding: 20px; }
+.howto-card { width: min(640px, 92vw); background: #0d1322; border: 1px solid #2c3757; border-radius: 16px; padding: 28px 32px; box-shadow: var(--shadow); }
+.howto-card h2 { margin: 0 0 14px; color: var(--amber-hot); font-size: 32px; text-align: center; }
+.howto-steps { margin: 0 0 14px; padding-left: 22px; display: grid; gap: 10px; font-size: 17px; line-height: 1.4; }
+.howto-steps b { color: var(--amber-hot); }
+.howto-note { color: var(--ink-dim); font-size: 14px; margin: 0 0 18px; }
+.howto-card .btn { width: 100%; }
+.what-now {
+  background: rgba(242,169,59,.12); border: 1px solid rgba(242,169,59,.45); color: var(--amber-hot);
+  border-radius: 10px; padding: 8px 14px; font-size: 16px; line-height: 1.35; text-align: center;
+}
+.what-now.urgent { background: rgba(214,69,65,.14); border-color: rgba(214,69,65,.6); color: #ffc7c2; }

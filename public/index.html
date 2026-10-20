@@ -19,6 +19,7 @@
         <div class="stamp-small">CLASSIFIED</div>
         <h1 class="title type">LIVE INTERROGATION</h1>
         <p class="tagline">Someone did it. Your friends are the detectives. Nobody talks out loud.</p>
+        <button id="btn-howto" class="btn ghost small howto-open">How to play (30 seconds)</button>
 
         <label class="field-label" for="nick">Your nickname</label>
         <input id="nick" class="field big" maxlength="16" placeholder="e.g. Detective Dan" autocomplete="off">
@@ -90,6 +91,7 @@
           <p id="settings-hint" class="small muted"></p>
           <button id="btn-start" class="btn primary big" disabled>START THE INTERROGATION</button>
           <p id="lobby-hint" class="small muted center"></p>
+          <button id="btn-howto-lobby" class="btn ghost small">How to play</button>
           <button id="btn-leave" class="btn ghost small">Leave room</button>
         </div>
       </div>
@@ -154,6 +156,7 @@
           <div id="roles-banner" class="roles-banner hidden"></div>
         </div>
 
+        <div id="what-now" class="what-now" aria-live="polite"></div>
         <div class="feed-wrap">
           <div id="feed" class="feed" aria-live="polite"></div>
           <div id="delib" class="delib hidden">
@@ -181,7 +184,23 @@
       <div id="overlay-body" class="overlay-body"></div>
     </div>
 
-    <div id="toast" class="toast hidden" role="status"></div>
+    <div id="howto" class="howto hidden" role="dialog" aria-modal="true" aria-labelledby="howto-title">
+    <div class="howto-card">
+      <h2 id="howto-title" class="type">How to play</h2>
+      <ol class="howto-steps">
+        <li><b>Join.</b> One person hosts and shares the 4-letter code. Everyone enters it with a nickname. You need 3 to 8 players.</li>
+        <li><b>One suspect per case.</b> The suspect rotates, so everyone gets a turn. The suspect secretly did it or didn't, and knows their story.</li>
+        <li><b>Detectives ask questions.</b> Type in the box and press ENTER. The suspect must answer before the timer runs out. Use FOLLOW-UP to push a question to the front of the line.</li>
+        <li><b>Hold SPACE</b> to read your private cards. Only you can see them. Detectives can PIN a clue to the shared evidence board.</li>
+        <li><b>Vote in secret.</b> After deliberation, detectives vote GUILTY or INNOCENT (keys G and I). The majority decides, and a tie counts as innocent.</li>
+        <li><b>Score.</b> Detectives score for correct votes. The suspect scores for getting off. The player with the most points after all cases wins.</li>
+      </ol>
+      <p class="howto-note">Power cards are one-time bonuses. Check your card on the right during the interrogation.</p>
+      <button id="howto-close" class="btn primary big">GOT IT</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
   </div>
 
   <div id="audio-ctl" class="audio-ctl">
