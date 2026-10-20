@@ -990,9 +990,6 @@
         }
         return;
       }
-      if (e.key === 'm' || e.key === 'M') {
-        toggleMute();
-      }
     });
     window.addEventListener('keyup', (e) => {
       if (e.code === 'Space') {
@@ -1004,12 +1001,6 @@
       S.peek = false;
       $('private').classList.remove('peek');
     });
-  }
-
-  function toggleMute() {
-    const muted = Sound.toggleMute();
-    $('btn-mute').textContent = muted ? '🔇' : '🔊';
-    $('vol').value = String(Math.round((muted ? 0 : Sound.volume) * 100));
   }
 
   // ---------- landing / lobby actions ----------
@@ -1088,14 +1079,6 @@
     };
     ['set-rounds', 'set-time', 'set-answer', 'set-accomplice'].forEach((id) => {
       $(id).addEventListener('change', pushSettings);
-    });
-
-    $('btn-mute').addEventListener('click', toggleMute);
-    $('vol').value = String(Math.round(Sound.volume * 100));
-    $('btn-mute').textContent = Sound.muted ? '🔇' : '🔊';
-    $('vol').addEventListener('input', (e) => {
-      Sound.setVolume(Number(e.target.value) / 100);
-      if (Sound.muted) toggleMute();
     });
 
     // How-to-play panel (from the landing page and the lobby).

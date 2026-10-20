@@ -20,6 +20,7 @@ const AVATARS = [
   { id: 'chemist', name: 'Lab Chemist' },
   { id: 'bellhop', name: 'Hotel Bellhop' },
   { id: 'painter', name: 'Street Painter' },
+  { id: 'ogre', name: 'Sneaky Ogre' },
 ];
 
 const COLORS = [

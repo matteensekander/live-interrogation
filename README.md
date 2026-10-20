@@ -96,9 +96,7 @@ To test the desktop app without building: `npm run desktop`.
 | Hold **SPACE** | Reveal your private cards (release to hide) |
 | **ENTER** | Send a question, answer, or chat message |
 | **G** / **I** | Vote Guilty / Innocent during the vote |
-| **M** | Mute / unmute |
 
-Volume slider and mute are in the top-right corner.
 
 ---
 

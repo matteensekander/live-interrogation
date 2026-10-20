@@ -54,6 +54,10 @@ const CHARACTERS = {
     skin: '#a46b43', hair: { type: 'short', color: '#111111' }, hat: { type: 'pillbox', color: '#c0392b' },
     jacket: '#c0392b', mouth: 'smile', brows: 'thick', buttons: true,
   },
+  ogre: {
+    skin: '#6e9a4f', hair: { type: 'short', color: '#1d1d1d' }, sunglasses: true,
+    jacket: '#4a3a2c', shirt: '#dcdcdc', tie: '#8b1e1e', mouth: 'smirk', brows: 'thick',
+  },
   painter: {
     skin: '#e3b08d', hair: { type: 'long', color: '#5a3a22' }, hat: { type: 'bandana', color: '#2e86de' },
     jacket: '#4a4a4a', mouth: 'smile', beard: true, smear: '#e84393', brows: 'thin',
