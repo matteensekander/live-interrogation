@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Interrogation</title>
+  <meta name="description" content="A real-time noir deduction game. Interrogate your friends, text only.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="stage">
+
+    <!-- ============ LANDING ============ -->
+    <section id="screen-landing" class="screen">
+      <div class="landing-card">
+        <div class="stamp-small">CLASSIFIED</div>
+        <h1 class="title type">LIVE INTERROGATION</h1>
+        <p class="tagline">Someone did it. Your friends are the detectives. Nobody talks out loud.</p>
+
+        <label class="field-label" for="nick">Your nickname</label>
+        <input id="nick" class="field big" maxlength="16" placeholder="e.g. Detective Dan" autocomplete="off">
+
+        <div class="landing-actions">
+          <button id="btn-host" class="btn primary big">HOST A NEW CASE</button>
+          <div class="or"><span>or join a case</span></div>
+          <div class="join-row">
+            <input id="code-in" class="field big code" maxlength="4" placeholder="CODE" autocomplete="off" spellcheck="false">
+            <button id="btn-join" class="btn big">JOIN</button>
+          </div>
+        </div>
+        <p id="landing-error" class="error" role="alert"></p>
+        <p class="fine">Works in any browser. Desktop app available for Windows and Mac.</p>
+      </div>
+    </section>
+
+    <!-- ============ LOBBY ============ -->
+    <section id="screen-lobby" class="screen hidden">
+      <header class="lobby-head">
+        <div>
+          <div class="kicker">CASE ROOM</div>
+          <div class="room-code type" id="lobby-code">----</div>
+        </div>
+        <div class="lobby-head-right">
+          <p class="small">Friends join at <span id="join-url"></span></p>
+          <button id="btn-copy" class="btn small">COPY INVITE LINK</button>
+        </div>
+      </header>
+
+      <div class="lobby-body">
+        <div class="panel players-panel">
+          <h2 class="panel-title type">Detectives on the case</h2>
+          <div id="lobby-players" class="player-grid"></div>
+          <p id="lobby-count" class="small muted"></p>
+        </div>
+
+        <div class="panel look-panel">
+          <h2 class="panel-title type">Pick your character</h2>
+          <div id="avatar-grid" class="avatar-grid"></div>
+          <h3 class="panel-sub">Your color</h3>
+          <div id="color-grid" class="color-grid"></div>
+        </div>
+
+        <div class="panel settings-panel">
+          <h2 class="panel-title type">Case settings</h2>
+          <div id="settings" class="settings">
+            <label>Rounds
+              <input id="set-rounds" type="number" min="1" max="10" value="5">
+            </label>
+            <label>Interrogation time
+              <select id="set-time">
+                <option value="120">2:00</option>
+                <option value="180">3:00</option>
+                <option value="240">4:00</option>
+                <option value="300">5:00</option>
+                <option value="420">7:00</option>
+                <option value="600">10:00</option>
+              </select>
+            </label>
+            <label>Answer time limit (seconds)
+              <input id="set-answer" type="number" min="5" max="60" value="20">
+            </label>
+            <label class="check">
+              <input id="set-accomplice" type="checkbox">
+              <span>Accomplice twist <small>(one detective secretly wins if the vote is wrong)</small></span>
+            </label>
+          </div>
+          <p id="settings-hint" class="small muted"></p>
+          <button id="btn-start" class="btn primary big" disabled>START THE INTERROGATION</button>
+          <p id="lobby-hint" class="small muted center"></p>
+          <button id="btn-leave" class="btn ghost small">Leave room</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GAME ============ -->
+    <section id="screen-game" class="screen hidden">
+      <header class="topbar">
+        <div class="round-badge" id="round-badge">CASE 1 / 5</div>
+        <div class="timer-wrap">
+          <svg viewBox="0 0 120 120" class="timer-ring" aria-hidden="true">
+            <circle cx="60" cy="60" r="52" class="ring-bg"/>
+            <circle id="ring-fg" cx="60" cy="60" r="52" class="ring-fg" pathLength="100"/>
+          </svg>
+          <div class="timer-text">
+            <div id="timer" class="timer">--:--</div>
+            <div id="phase-label" class="phase-label">LOBBY</div>
+          </div>
+        </div>
+        <div class="topbar-right">
+          <div id="my-badge" class="my-badge"></div>
+        </div>
+      </header>
+
+      <aside class="col-left">
+        <div class="casefile" id="casefile">
+          <div class="stamp" aria-hidden="true">CLASSIFIED</div>
+          <div class="casefile-kicker">CASE FILE</div>
+          <h2 id="cf-title" class="cf-title type">Awaiting case</h2>
+          <p id="cf-crime" class="cf-crime"></p>
+          <dl class="cf-meta">
+            <dt>WHEN</dt><dd id="cf-time">-</dd>
+            <dt>WHERE</dt><dd id="cf-where">-</dd>
+          </dl>
+        </div>
+
+        <div class="board">
+          <div class="board-title type">Evidence board</div>
+          <div id="board-list" class="board-list"></div>
+        </div>
+      </aside>
+
+      <main class="col-center">
+        <div class="room" id="room">
+          <canvas id="rain" aria-hidden="true"></canvas>
+          <div class="window" aria-hidden="true"></div>
+          <div class="lamp" aria-hidden="true">
+            <div class="cord"></div>
+            <div class="shade"></div>
+            <div class="beam"></div>
+          </div>
+          <div class="table" aria-hidden="true"></div>
+
+          <div class="suspect-seat" id="suspect-seat">
+            <div class="suspect-label" id="suspect-label">THE SUSPECT</div>
+            <img id="suspect-img" class="suspect-img" alt="">
+            <div id="suspect-name" class="suspect-name">-</div>
+            <div id="typing" class="typing hidden"><span>Suspect is typing</span><i></i><i></i><i></i></div>
+          </div>
+
+          <div id="detective-row" class="detective-row"></div>
+          <div id="roles-banner" class="roles-banner hidden"></div>
+        </div>
+
+        <div class="feed-wrap">
+          <div id="feed" class="feed" aria-live="polite"></div>
+          <div id="delib" class="delib hidden">
+            <div class="delib-head type">DETECTIVES ONLY</div>
+            <div id="delib-msgs" class="delib-msgs"></div>
+          </div>
+        </div>
+
+        <div class="input-bar" id="input-bar"></div>
+      </main>
+
+      <aside class="col-right">
+        <div class="private" id="private">
+          <div class="cover" id="cover">
+            <div class="cover-stamp type">HOLD SPACE</div>
+            <p>Your private cards. Hold SPACE to reveal them. Nobody else can see this panel.</p>
+          </div>
+          <div class="private-content" id="private-content"></div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ============ OVERLAY (briefing / reveal / scoreboard / final) ============ -->
+    <div id="overlay" class="overlay hidden" role="dialog" aria-modal="true">
+      <div id="overlay-body" class="overlay-body"></div>
+    </div>
+
+    <div id="toast" class="toast hidden" role="status"></div>
+  </div>
+
+  <div id="audio-ctl" class="audio-ctl">
+    <button id="btn-mute" class="icon-btn" title="Mute (M)" aria-label="Mute">🔊</button>
+    <input id="vol" type="range" min="0" max="100" value="60" aria-label="Volume">
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/sound.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

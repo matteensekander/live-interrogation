@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "s01",
+    "title": "The Vanishing Birthday Cake",
+    "crime": "A three-layer chocolate cake meant for Dolores's 60th birthday vanished from the office break room. All that remains is a fork and one sad candle.",
+    "timeWindow": "Friday, 4:00 to 5:00 PM",
+    "location": "Office break room, 3rd floor",
+    "alibi": [
+      "I was on a call with the Denver office from 4:00 to 4:40 PM.",
+      "I printed the boss's slides in the copy room from 4:45 to 4:55 PM.",
+      "Badge logs put me at the front desk at 4:58 PM.",
+      "I never left the 3rd floor elevator lobby before 4:30 PM.",
+      "I ate a rice cake at my desk until the cake went missing."
+    ],
+    "cover": [
+      "I walked past the break room around 4:20 PM but didn't go in.",
+      "I was in the restroom from 4:15 to 4:25 PM fixing my hair.",
+      "I took the stairs down to the lobby at 4:35 PM for some air.",
+      "I had a vending machine repairman in my cubicle from 4:40 to 4:50 PM.",
+      "I got back to my desk at 4:55 PM and sat very still."
+    ],
+    "weakSpot": {
+      "text": "Their badge logged a swipe into the break room at 4:22 PM, not the restroom.",
+      "keywords": ["restroom", "bathroom", "4:22"]
+    },
+    "realClues": [
+      "A pink frosting smear on the fridge handle, the exact shade of the cake.",
+      "Badge swipe log: a break room door opened at 4:22 PM.",
+      "The security camera shows someone carrying a large box toward the stairwell."
+    ],
+    "redHerrings": [
+      "A candle wick in the trash can. Everyone in the office owns candles.",
+      "A note reading 'SAVE ME A SLICE' with no name on it.",
+      "A fork bent into the shape of a question mark."
+    ]
+  },
+  {
+    "id": "s02",
+    "title": "The Missing TV Remote",
+    "crime": "The one and only TV remote in the Hendersons' house has vanished. The game is on in four minutes and there is no way to change the channel.",
+    "timeWindow": "Sunday, 7:30 to 8:00 PM",
+    "location": "Living room, the Henderson house",
+    "alibi": [
+      "I was at my sister's house for dinner from 7:00 PM to 9:00 PM.",
+      "I was on the phone with my bank's hold line from 7:30 to 7:50 PM.",
+      "I was upstairs folding laundry until 7:55 PM.",
+      "The neighbor saw me fix her porch light at 7:40 PM.",
+      "My phone's location history shows me at the gym until 8:10 PM."
+    ],
+    "cover": [
+      "I was in the kitchen making popcorn from 7:30 to 7:45 PM.",
+      "I was in the garage looking for the spare batteries.",
+      "I texted my cousin about the game at 7:40 PM from the couch.",
+      "I was in the bathroom for a long time reading the newspaper.",
+      "I sat on the porch steps for a while to cool off at 7:55 PM."
+    ],
+    "weakSpot": {
+      "text": "The remote's battery door was found in the garage, which the suspect said they never entered.",
+      "keywords": ["garage", "batteries"]
+    },
+    "realClues": [
+      "A small battery door found under the couch cushion, still warm.",
+      "The garage light was on at 7:50 PM, but the car was parked outside.",
+      "The TV's power log shows the remote was used at 7:58 PM from the kitchen."
+    ],
+    "redHerrings": [
+      "A pizza menu with three phone numbers circled in red marker.",
+      "A tiny rubber duck that someone claims has been missing since June.",
+      "A half-eaten bag of popcorn that could have come from anyone."
+    ]
+  },
+  {
+    "id": "s03",
+    "title": "The Last Taco",
+    "crime": "Someone ate the last taco from the Taco Tuesday tray, even though it had a name tag that said 'PLEASE DO NOT EAT. IT IS MARCUS'S.'",
+    "timeWindow": "Tuesday, 12:00 to 1:00 PM",
+    "location": "Team kitchen, second floor",
+    "alibi": [
+      "I was in the parking lot on a call from 12:05 to 12:40 PM.",
+      "I was in the supply room counting stapler refills until 12:50 PM.",
+      "I was buying my own lunch across the street at 12:30 PM.",
+      "The receptionist saw me at the front desk at 12:55 PM.",
+      "I have been on a diet since January, as everyone knows."
+    ],
+    "cover": [
+      "I walked in at 12:10 PM, saw the tacos, and walked straight back out.",
+      "I stayed in the kitchen eating a granola bar at 12:20 PM.",
+      "I was looking for a clean fork near the sink from 12:25 PM.",
+      "I brought my own lunch but I forgot the lid to my soup.",
+      "I left the building at 12:45 PM to get some fresh air."
+    ],
+    "weakSpot": {
+      "text": "The name tag was found in their coat pocket, with a fresh salsa stain.",
+      "keywords": ["coat", "pocket", "salsa"]
+    },
+    "realClues": [
+      "The salsa stain on a tray, with a fingerprint that matches a sleeve.",
+      "A lunch receipt from the taco truck with two items, time-stamped 12:21 PM.",
+      "The kitchen microwave was used at 12:24 PM to warm something up."
+    ],
+    "redHerrings": [
+      "Hot sauce packets scattered around the trash can like confetti.",
+      "A sign-up sheet for a potluck with 'tacos?' written at the bottom.",
+      "Marcus's own handwriting on a napkin that reads 'I'm starving.'"
+    ]
+  },
+  {
+    "id": "s04",
+    "title": "The Scratched Car",
+    "crime": "Someone drew a long, deliberate line down the side of Pete's silver hatchback in the mall parking garage. He is very upset about it.",
+    "timeWindow": "Saturday, 2:00 to 3:30 PM",
+    "location": "Level 3, Maple Mall parking garage",
+    "alibi": [
+      "I was in the cinema lobby buying popcorn from 2:10 to 2:25 PM.",
+      "My receipt from the shoe store is timed at 2:40 PM.",
+      "I was on the third-floor escalator at 2:50 PM, which is on camera.",
+      "I stayed at the food court with my niece until 3:15 PM.",
+      "I parked on level 1, which is nowhere near Pete's spot."
+    ],
+    "cover": [
+      "I parked on level 3 at 2:05 PM and went straight into the mall.",
+      "I walked back to the garage to grab my sunglasses at 2:35 PM.",
+      "I walked past a silver car on level 3 while looking for my keys.",
+      "I sat in my car on level 3 for ten minutes listening to a podcast.",
+      "I bought a pretzel from the food court and never left the building."
+    ],
+    "weakSpot": {
+      "text": "A key scratch on the suspect's car door matches Pete's paint transfer, almost exactly.",
+      "keywords": ["key", "scratch", "paint"]
+    },
+    "realClues": [
+      "Silver paint transfer on a key ring found in the parking garage.",
+      "Level 3 security camera shows a red hatchback circling twice at 2:31 PM.",
+      "A receipt for a car wash that was scheduled for 3:00 PM and never used."
+    ],
+    "redHerrings": [
+      "A coupon for free oil changes, expired in 2019.",
+      "A shopping cart left in the middle of the lane with a child's shoe in it.",
+      "A grocery list that says 'paint, nails, key' with no explanation."
+    ]
+  },
+  {
+    "id": "s05",
+    "title": "The Dog Got Out",
+    "crime": "Biscuit the beagle slipped out of the front gate sometime Friday morning. He came back eight hours later wearing a cowboy hat that nobody owns.",
+    "timeWindow": "Friday, 7:00 to 9:00 AM",
+    "location": "The Okafor family's front yard and gate",
+    "alibi": [
+      "I was on a 7:15 AM conference call from my home office.",
+      "I was in the shower from 7:30 to 7:50 AM, which the water bill confirms.",
+      "I drove to the vet at 8:00 AM, which is on the dashboard camera.",
+      "I was in line at the coffee shop from 8:10 to 8:25 AM.",
+      "I can't reach the gate, because I have a bad shoulder."
+    ],
+    "cover": [
+      "I took Biscuit for his regular walk at 7:20 AM, then came back.",
+      "I left the gate open by accident while carrying the recycling.",
+      "I drove around the block looking for him from 8:00 to 8:30 AM.",
+      "I bought a cowboy hat at the thrift store last weekend, not this one.",
+      "I was on my porch sipping coffee at 8:45 AM when he came home."
+    ],
+    "weakSpot": {
+      "text": "The thrift store receipt for the cowboy hat is dated Friday at 7:48 AM, and the store opens at 10:00.",
+      "keywords": ["hat", "thrift", "receipt"]
+    },
+    "realClues": [
+      "The gate latch is bent in the opposite direction, pushed from the inside.",
+      "Doorbell camera: a figure in a bathrobe fumbling with the gate at 7:32 AM.",
+      "A dog treat wrapper stuck to a boot print on the front steps."
+    ],
+    "redHerrings": [
+      "A squeaky toy in the neighbor's mailbox with a note reading 'NOT MINE.'",
+      "A bowl of water left outside that was also empty.",
+      "A set of muddy paw prints leading the wrong way down the street."
+    ]
+  },
+  {
+    "id": "s06",
+    "title": "The Stolen Garden Gnome",
+    "crime": "Gerald, the three-foot ceramic garden gnome who has watched over the Pembrokes' rose beds for 20 years, has been kidnapped. A ransom note reads 'Lawn Ornaments Are Not Free.'",
+    "timeWindow": "Monday, 6:00 to 7:00 PM",
+    "location": "Pembroke front lawn, Maple Street",
+    "alibi": [
+      "I was at my daughter's piano recital from 6:00 to 7:15 PM.",
+      "I was on the community board Zoom call from 6:10 to 6:50 PM.",
+      "I was at the hardware store until closing, which is on video.",
+      "I had a dentist appointment that ran from 5:45 to 6:55 PM.",
+      "My husband can confirm I was in the car with him at 6:30 PM."
+    ],
+    "cover": [
+      "I walked the dog past the Pembrokes' yard around 6:15 PM.",
+      "I sat on the curb for a while looking at the roses at 6:25 PM.",
+      "I was at the mailbox getting my package at 6:40 PM.",
+      "I picked up a ceramic mug at the thrift store, not a gnome.",
+      "I drove past the house around 6:55 PM with the windows down."
+    ],
+    "weakSpot": {
+      "text": "Gerald's missing paint chips match the ceramic mug the suspect bought, and the thrift store has a receipt for it.",
+      "keywords": ["mug", "ceramic", "thrift"]
+    },
+    "realClues": [
+      "A small chunk of ceramic with fresh blue paint found by the rose bed.",
+      "The ransom note is printed on paper from the community board's printer.",
+      "A car with a dented bumper was seen idling near the house at 6:50 PM."
+    ],
+    "redHerrings": [
+      "A map of every garden gnome in the neighborhood, with three circled.",
+      "A bag of potting soil with a fingerprint on the label.",
+      "A scrap of yellow tape with the words 'DO NOT CROSS' written in crayon."
+    ]
+  },
+  {
+    "id": "s07",
+    "title": "The Forgotten Wedding Toast",
+    "crime": "The best man's wedding toast, handwritten on twelve index cards, has been stolen from the reception hall. The bride has said that if it isn't found, nobody is getting cake.",
+    "timeWindow": "Saturday, 5:00 to 6:30 PM",
+    "location": "Grand Oak reception hall, ballroom B",
+    "alibi": [
+      "I was at the open bar, chatting with the caterer from 5:10 to 5:40 PM.",
+      "I helped the florist arrange centerpieces until 6:00 PM.",
+      "I was taking photos with the bride's grandmother at 5:50 PM.",
+      "I was on the terrace making a phone call to my mom at 6:15 PM.",
+      "The DJ can confirm I requested 'Living on a Prayer' at 6:20 PM."
+    ],
+    "cover": [
+      "I walked past ballroom B at 5:20 PM to check the seating chart.",
+      "I went to the restroom near the hall entrance at 5:45 PM.",
+      "I was looking for a pen to sign the guestbook at 6:05 PM.",
+      "I told the best man 'good luck' near the hallway at 6:10 PM.",
+      "I was in the coat check line for a while after dinner."
+    ],
+    "weakSpot": {
+      "text": "The suspect's handwriting is on a card in the trash, where the bride found it crumpled up with a crossed-out joke.",
+      "keywords": ["handwriting", "card", "trash"]
+    },
+    "realClues": [
+      "A stack of index cards in a coat pocket, with 'Ha! Ha! Ha!' lines in pen.",
+      "Three guests saw someone with a bag leave ballroom B at 5:58 PM.",
+      "The best man's notes show an unfinished joke about the groom's ex."
+    ],
+    "redHerrings": [
+      "A soggy napkin with the groom's name spelled wrong.",
+      "A ring box that was supposed to be in the groom's pocket.",
+      "A poorly-tuned microphone that sounds like a dying goose."
+    ]
+  },
+  {
+    "id": "s08",
+    "title": "The Hot Tub Heist",
+    "crime": "The community hot tub at the Sunset Ridge apartments was drained overnight. Three residents have since reported that their towels, bathrobes, and dignity are missing.",
+    "timeWindow": "Thursday, 11:00 PM to 1:00 AM",
+    "location": "Sunset Ridge pool deck, Building C",
+    "alibi": [
+      "I was in bed by 10:30 PM with a sleep mask, as confirmed by my roommate.",
+      "I was on the night shift at the hospital until 12:45 AM.",
+      "My keycard shows I left the building at 11:10 PM for a dog walk.",
+      "The 11:30 PM gate camera shows my car going the other way.",
+      "I was watching a late-night movie in the lobby until 12:15 AM."
+    ],
+    "cover": [
+      "I walked past the pool deck at 11:20 PM on my way to the laundry.",
+      "I was in the parking garage with my headphones on until 12:00 AM.",
+      "I was at the vending machine by the pool at 12:20 AM for a soda.",
+      "I helped my neighbor carry a cooler up the stairs at 12:30 AM.",
+      "I went back to bed right after the pool lights turned off."
+    ],
+    "weakSpot": {
+      "text": "The drain valve was turned using the building's maintenance key, which only the suspect has been given.",
+      "keywords": ["valve", "drain", "maintenance key"]
+    },
+    "realClues": [
+      "A maintenance key taped to the underside of the vending machine.",
+      "Wet footprints leading from the pool deck to Building C's stairwell.",
+      "A drain hose left running, connected to a van with a pool service logo."
+    ],
+    "redHerrings": [
+      "A stack of soggy bathrobes left in the laundry room with 'SMITH' on them.",
+      "A bottle of bubble bath with the cap missing.",
+      "A sign that reads 'NO RUNNING, NO DIVING, NO SINGING' in tiny letters."
+    ]
+  },
+  {
+    "id": "s09",
+    "title": "The Office Plant Massacre",
+    "crime": "Every fern on the fourth floor has been pruned into a sad, bald stump. Nobody remembers who was in charge of watering them. Everybody remembers who was in charge of watering them.",
+    "timeWindow": "Wednesday, 3:00 to 5:00 PM",
+    "location": "Fourth floor open office, plant corner",
+    "alibi": [
+      "I was in the all-hands meeting on the 5th floor from 3:00 to 4:30 PM.",
+      "I was on a video call with the legal team from 4:30 to 5:00 PM.",
+      "My badge shows me at the 5th floor kitchen at 3:20 PM.",
+      "I was getting my car washed at 4:00 PM, with the receipt to prove it.",
+      "I haven't touched a plant since my middle school science project."
+    ],
+    "cover": [
+      "I watered the ferns on Monday and I'm very proud of that.",
+      "I walked past the plant corner at 3:45 PM to refill my water bottle.",
+      "I was in the supply closet grabbing scissors around 4:15 PM.",
+      "I took a long lunch and was in the courtyard until 3:50 PM.",
+      "I was on the stairs between floors at 4:40 PM, making a phone call."
+    ],
+    "weakSpot": {
+      "text": "The garden shears were logged out from the supply closet at 4:12 PM under the suspect's name.",
+      "keywords": ["shears", "scissors", "supply closet"]
+    },
+    "realClues": [
+      "Garden shears logged out from the supply closet at 4:12 PM.",
+      "Fern clippings in a shredder bin, with a sticky note reading 'OOPS.'",
+      "The office coffee machine's log shows a rinse cycle at 4:30 PM for fern water."
+    ],
+    "redHerrings": [
+      "A calendar invitation to 'Plant Appreciation Day,' scheduled for next week.",
+      "A handwritten letter from a fern named Gerald, apologizing for everything.",
+      "Muddy shoe prints leading to the window, which could be from the courier."
+    ]
+  },
+  {
+    "id": "s10",
+    "title": "The Doughnut Box Caper",
+    "crime": "A box of twelve glazed doughnuts was left on the conference table for the 10 AM meeting. At 10:01 AM, the box was empty and a single sprinkle was lying on the table.",
+    "timeWindow": "Monday, 9:45 to 10:05 AM",
+    "location": "Conference room B, Harbor Insurance",
+    "alibi": [
+      "I was in the elevator with the CFO from 9:45 to 9:50 AM, which is on camera.",
+      "I signed in at reception at 9:52 AM, as the sign-in sheet proves.",
+      "I was on a phone call in the hallway from 9:55 to 10:10 AM.",
+      "I was getting coffee from the lobby cafe at 9:40 AM.",
+      "I had a meeting with HR and cannot be in two places at once."
+    ],
+    "cover": [
+      "I walked past conference room B at 9:50 AM and saw the doughnuts.",
+      "I went into the room at 9:58 AM to set up my laptop.",
+      "I went to the bathroom at 10:00 AM, right when the meeting was starting.",
+      "I was at my desk eating a granola bar until the meeting began.",
+      "I had a sprinkle on my tie this morning, which I can explain."
+    ],
+    "weakSpot": {
+      "text": "The sprinkle matches the sprinkle on the suspect's tie, and their tie is still in the conference room's trash.",
+      "keywords": ["sprinkle", "tie", "trash"]
+    },
+    "realClues": [
+      "A single rainbow sprinkle on the conference table, next to a half-eaten doughnut.",
+      "Conference room door badge log: someone entered at 9:58 AM without a meeting invite.",
+      "A receipt from the bakery for a dozen doughnuts, with 'extra sprinkles' written by hand."
+    ],
+    "redHerrings": [
+      "An empty coffee cup with a lipstick mark that nobody can identify.",
+      "A list of diet resolutions, left face down on the printer.",
+      "A tiny crumb on the carpet that might be from a cracker."
+    ]
+  },
+  {
+    "id": "s11",
+    "title": "The Burnt Casserole",
+    "crime": "Aunt Bev's famous green bean casserole was placed in the church potluck oven at 5:00 PM. At 5:30 PM it was found black, smoking, and labeled with a Post-it that reads 'You're welcome.'",
+    "timeWindow": "Sunday, 4:45 to 5:45 PM",
+    "location": "Fellowship hall kitchen, Grace Community Church",
+    "alibi": [
+      "I was setting up the folding tables in the hall from 4:45 to 5:20 PM.",
+      "I was in the choir room rehearsing from 5:00 to 5:30 PM.",
+      "I was in the parking lot helping an elderly couple with their walker.",
+      "The pastor saw me in the sanctuary at 5:35 PM, lighting candles.",
+      "I'm not allowed near the oven, since the incident of 2019."
+    ],
+    "cover": [
+      "I walked past the kitchen at 4:55 PM and smelled something good.",
+      "I put my own dish in the fridge at 5:05 PM and then left.",
+      "I was in the restroom down the hall from 5:10 to 5:15 PM.",
+      "I was in the hall folding napkins until I heard the smoke alarm.",
+      "I was thinking about the bake sale at 5:20 PM near the coat rack."
+    ],
+    "weakSpot": {
+      "text": "Oven temperature was set to 500 degrees. Only the suspect's old recipe card calls for that temperature.",
+      "keywords": ["oven", "500", "temperature", "recipe"]
+    },
+    "realClues": [
+      "The oven dial was turned all the way to 500 degrees, not the recipe's 350.",
+      "A recipe card with 'Bev's secret: 500 for crispy onions' scribbled in the margin.",
+      "A witness saw someone with an oven mitt leave the kitchen at 5:08 PM."
+    ],
+    "redHerrings": [
+      "A jar of bright red hot sauce labeled 'Do Not Use For Casseroles.'",
+      "A stack of paper plates with the church logo, stamped in green ink.",
+      "An unlabeled tin of cookies that tasted strangely of motor oil."
+    ]
+  },
+  {
+    "id": "s12",
+    "title": "The Hijacked Karaoke Machine",
+    "crime": "The karaoke machine at the Kowalskis' 40th anniversary party was hijacked mid-song. The playlist now only contains 'Total Eclipse of the Heart,' repeated 17 times.",
+    "timeWindow": "Saturday, 9:00 to 10:00 PM",
+    "location": "Basement rec room, the Kowalski house",
+    "alibi": [
+      "I was on the patio grilling burgers from 9:00 to 9:50 PM.",
+      "I was doing a shot with the groom's brother at 9:15 PM.",
+      "I was in the kitchen cutting the cake from 9:30 to 9:45 PM.",
+      "I sang my own duet with Uncle Ray at 9:55 PM, on camera.",
+      "I can't use a laptop, and everyone knows it."
+    ],
+    "cover": [
+      "I went down to the basement at 9:20 PM to get more ice.",
+      "I stood by the karaoke machine for a while, admiring the lights.",
+      "I walked past the rec room at 9:40 PM on my way to the bathroom.",
+      "I was on the stairs at 9:58 PM, trying to find my car keys.",
+      "I was singing along to a song somewhere near the bar."
+    ],
+    "weakSpot": {
+      "text": "The laptop's playlist was edited from an account logged in with the suspect's email address.",
+      "keywords": ["laptop", "playlist", "email", "account"]
+    },
+    "realClues": [
+      "A laptop logged into a streaming account, with a recent playlist edit at 9:41 PM.",
+      "A set of handwritten lyrics with 'ECLIPSE' circled four times.",
+      "An unplugged power cable on the basement stairs, with a fresh bite mark."
+    ],
+    "redHerrings": [
+      "A microphone with a sticky note that says 'Don't touch this.'",
+      "A bag of confetti spilled near the piano, from the 1982 wedding.",
+      "A pair of sunglasses that nobody can identify as anyone's."
+    ]
+  },
+  {
+    "id": "s13",
+    "title": "The Missing Fantasy Football Trophy",
+    "crime": "The 'Commissioner's Golden Pineapple' trophy, won by nobody but still polished, has vanished from the garage bar. The league group chat is in full meltdown.",
+    "timeWindow": "Sunday, 1:00 to 2:30 PM",
+    "location": "Garage bar, the Dempsey house",
+    "alibi": [
+      "I was in the kitchen with the wings from 1:00 to 1:40 PM.",
+      "I was on the couch watching the early game from 1:45 to 2:20 PM.",
+      "I was on video call with my brother in Phoenix at 2:00 PM.",
+      "I was in the living room at 2:25 PM, cheering for a touchdown.",
+      "The trophy was last seen by me at 12:55 PM, and I want that noted."
+    ],
+    "cover": [
+      "I walked past the garage at 1:10 PM to grab a cooler.",
+      "I went to the garage around 1:50 PM to check the fridge.",
+      "I was in the backyard lighting the grill at 2:05 PM.",
+      "I was in the garage looking at the trophy at 2:15 PM, admiring it.",
+      "I went outside to move my car at 2:30 PM."
+    ],
+    "weakSpot": {
+      "text": "The trophy's price tag was found in the suspect's car, with 'Pineapple Pawn' written on the back.",
+      "keywords": ["pawn", "car", "price tag"]
+    },
+    "realClues": [
+      "A pawn shop receipt for 'one gold pineapple,' dated Sunday at 2:10 PM.",
+      "A pineapple-shaped dent in the garage's dusty shelf, with a fresh wipe mark.",
+      "Garage camera footage of a figure carrying a cooler at 2:14 PM."
+    ],
+    "redHerrings": [
+      "A fantasy league draft pick sheet with a crossed-out name.",
+      "A bag of chips with a mysterious tooth mark in one corner.",
+      "A drawing of the trophy on a napkin, with a ridiculous mustache."
+    ]
+  },
+  {
+    "id": "s14",
+    "title": "The Gym Sneaker Crime",
+    "crime": "A pair of brand-new, limited-edition running shoes was stolen from the Iron Oak gym's lost-and-found shelf. The shoes had been there for exactly one hour, which is an insult to the shoes.",
+    "timeWindow": "Tuesday, 6:00 to 7:00 AM",
+    "location": "Iron Oak Fitness, locker room B",
+    "alibi": [
+      "I was on the treadmill from 6:00 to 6:45 AM, which the app can confirm.",
+      "I was in the sauna from 6:50 to 7:05 AM with my podcast.",
+      "I was at the front desk paying my membership at 6:20 AM.",
+      "My smartwatch shows steps across the gym floor the whole hour.",
+      "I'm already wearing an identical pair of shoes, so I didn't need theirs."
+    ],
+    "cover": [
+      "I walked past the lost-and-found at 6:15 AM and saw the sneakers.",
+      "I was in locker room B from 6:30 to 6:40 AM, changing my shirt.",
+      "I did some stretches near the shelves at 6:45 AM.",
+      "I was at the water fountain near the shelves at 6:55 AM.",
+      "I left the gym at 7:00 AM and walked straight to my car."
+    ],
+    "weakSpot": {
+      "text": "The sneakers' tracking tag pinged inside the suspect's gym bag at 6:52 AM, in the sauna's locker.",
+      "keywords": ["tag", "bag", "sauna", "locker"]
+    },
+    "realClues": [
+      "The lost-and-found shelf has a clean rectangle in the dust where the shoes were.",
+      "A tracking tag pinged from a locker in the sauna area at 6:52 AM.",
+      "A gym staff member saw someone in a hoodie leave the locker room at 6:58 AM."
+    ],
+    "redHerrings": [
+      "A protein shake with a suspiciously thick texture.",
+      "A pile of sweaty towels folded into the shape of a swan.",
+      "A nametag reading 'HELLO, MY NAME IS: SHOE THIEF' that someone drew on as a joke."
+    ]
+  },
+  {
+    "id": "s15",
+    "title": "The Forged Yoga Sign-In",
+    "crime": "Someone signed the sign-in sheet for the Sunrise Yoga class as 'Gandalf the Gray,' then took the last of the mats and a jar of the instructor's mint tea.",
+    "timeWindow": "Thursday, 6:30 to 7:30 AM",
+    "location": "Studio 2, Sunrise Yoga Collective",
+    "alibi": [
+      "I was on the 6:15 AM spin class across the street, with proof on the app.",
+      "My phone logged my morning run through the park from 6:20 to 6:50 AM.",
+      "I got my smoothie at 7:00 AM and the cashier remembers me.",
+      "I was at the bank ATM at 7:10 AM, which is on camera.",
+      "I've never been to Studio 2, and I can name every instructor who has taught there."
+    ],
+    "cover": [
+      "I signed in at 6:35 AM, then realized I was in the wrong room.",
+      "I took a mat from the front closet at 6:40 AM and left it outside.",
+      "I was drinking mint tea in the lobby at 7:00 AM, just passing through.",
+      "I stood by the sign-in table at 7:05 AM, looking for a pen.",
+      "I left the class early at 7:15 AM to get to work."
+    ],
+    "weakSpot": {
+      "text": "The handwriting on the sign-in sheet matches the suspect's grocery list, which was found in a mat bag.",
+      "keywords": ["handwriting", "sign-in", "mat bag"]
+    },
+    "realClues": [
+      "The sign-in sheet has the word 'Gandalf' spelled with the same ink as the suspect's pen.",
+      "A missing mat, found rolled up in the trunk of a blue sedan.",
+      "A jar of mint tea with a fingerprint and a stub of a yoga-themed sticker."
+    ],
+    "redHerrings": [
+      "A poster reading 'Namaste' with a coffee stain in the center.",
+      "A bag of loose change from the donation box, mostly pennies.",
+      "A note to the instructor reading 'Can we do wizard poses next week?'"
+    ]
+  },
+  {
+    "id": "s16",
+    "title": "The Lawn Flamingo Mutiny",
+    "crime": "Forty plastic pink flamingos have been rearranged into the shape of a giant arrow pointing at the homeowners association president's house. It was done at night, with great precision.",
+    "timeWindow": "Friday, 11:00 PM to 1:00 AM",
+    "location": "Cul-de-sac on Palmetto Court",
+    "alibi": [
+      "I was asleep by 10:30 PM, and my wife can testify to my snoring.",
+      "I was on a 12:00 AM livestream of my cat, which has hundreds of viewers.",
+      "I was at the all-night diner until 12:30 AM with my bowling team.",
+      "My car's dashcam shows me driving home from work at 11:40 PM.",
+      "I haven't owned a flamingo since the great lawn incident of 2017."
+    ],
+    "cover": [
+      "I walked my dog past the cul-de-sac around 11:15 PM.",
+      "I stood on my porch at 11:30 PM and admired the lawn decorations.",
+      "I drove by the court at 12:20 AM looking for my lost phone charger.",
+      "I borrowed a ladder from the garage around 12:40 AM for the gutters.",
+      "I went to bed right after the streetlights clicked on at 1:00 AM."
+    ],
+    "weakSpot": {
+      "text": "The arrow's angle matches a measurement written on the suspect's hardware-store receipt for 'string, stakes, and a protractor.'",
+      "keywords": ["protractor", "string", "stakes", "arrow"]
+    },
+    "realClues": [
+      "Measurement marks in chalk on the cul-de-sac pavement, drawn with a protractor.",
+      "A bundle of string and wooden stakes, dropped near the mailbox at 12:15 AM.",
+      "A neighbor's doorbell camera caught a figure in a headlamp at 11:52 PM."
+    ],
+    "redHerrings": [
+      "A bright pink feather stuck to the bumper of a parked minivan.",
+      "A petition asking the HOA to 'Please Stop Being So Bossy.'",
+      "A hand-drawn map of the neighborhood with 'FLAMINGOS ARE HERE' scrawled across it."
+    ]
+  },
+  {
+    "id": "s17",
+    "title": "The Unauthorized Espresso Machine",
+    "crime": "The office's fancy espresso machine has been moved to a secret storage closet and replaced with a sign that says 'Upgrade Pending.' It was not an upgrade. It was a theft.",
+    "timeWindow": "Thursday, 5:30 to 6:30 PM",
+    "location": "Pantry on the 7th floor, Crestline Design",
+    "alibi": [
+      "I was in the parking garage on a call with my mechanic from 5:30 to 6:10 PM.",
+      "I left the office at 5:45 PM, which is on the keycard log.",
+      "I was on the train heading home from 5:50 to 6:25 PM.",
+      "I was at my kid's soccer practice at 6:30 PM, shouting from the sidelines.",
+      "I don't have a key to the storage closet, and I wouldn't use it."
+    ],
+    "cover": [
+      "I walked past the pantry at 5:35 PM to refill my water bottle.",
+      "I was in the storage closet at 5:40 PM looking for printer paper.",
+      "I was in the copy room at 5:50 PM printing a boarding pass.",
+      "I went back to my desk at 6:00 PM to finish a report.",
+      "I stopped by the pantry at 6:15 PM to say goodnight to the coffee."
+    ],
+    "weakSpot": {
+      "text": "A dolly with the suspect's name written on it was found next to the moved espresso machine.",
+      "keywords": ["dolly", "name", "storage closet"]
+    },
+    "realClues": [
+      "A hand truck with fresh scuffs, parked outside the storage closet.",
+      "The keycard log shows the closet door unlocked at 5:52 PM by a manager's card.",
+      "The 'Upgrade Pending' sign was printed on the office printer at 5:48 PM."
+    ],
+    "redHerrings": [
+      "A coffee bean bag labeled 'Hands Off, Eddie.'",
+      "A stack of unused espresso cups with a faint lipstick mark.",
+      "A calendar with 'Upgrade Week' circled in red, from last year."
+    ]
+  },
+  {
+    "id": "s18",
+    "title": "The Parking Cone Caper",
+    "crime": "Thirteen orange traffic cones, placed by the mall's maintenance team, have been stacked into a pyramid in the middle of the lot. Somebody has set a tiny flag on top.",
+    "timeWindow": "Saturday, 3:00 to 4:00 AM",
+    "location": "Harbor Point shopping plaza, north lot",
+    "alibi": [
+      "I was asleep at a sleepover with my nephew, who can confirm it.",
+      "I was on the overnight shift at the gas station until 4:30 AM.",
+      "My car was in the repair shop from 2:30 AM until morning.",
+      "I was on a red-eye flight that landed at 3:45 AM.",
+      "I don't know how to build a pyramid. I can barely build a sandwich."
+    ],
+    "cover": [
+      "I drove through the north lot at 3:10 AM looking for a parking space.",
+      "I walked my dog through the north lot at 3:20 AM.",
+      "I was at the all-night pancake place near the lot until 3:40 AM.",
+      "I drove past the cones at 3:55 AM and didn't notice anything weird.",
+      "I stopped by the lot to pick up a dropped glove at 4:00 AM."
+    ],
+    "weakSpot": {
+      "text": "The tiny flag matches a flag sold only at the suspect's own construction company, which is printed with its name.",
+      "keywords": ["flag", "construction", "company"]
+    },
+    "realClues": [
+      "A tiny flag with 'Peak Builders' printed on the pole.",
+      "Traffic camera footage showing a pickup truck circling the lot at 3:33 AM.",
+      "Orange paint on the cones' bases, matching a specific brand of mall striping."
+    ],
+    "redHerrings": [
+      "A coupon for a free ice cream cone at a store that closed in 2014.",
+      "A parking ticket on the windshield of a car in another county.",
+      "A sign from the maintenance team that says 'Please leave cones alone!'"
+    ]
+  },
+  {
+    "id": "s19",
+    "title": "The Stolen Hot Sauce",
+    "crime": "Every bottle of the legendary 'Death Wish' hot sauce from Rosa's Pizza has been stolen off the counter. The owner says it was the good stuff, the one he keeps for regulars.",
+    "timeWindow": "Monday, 6:00 to 8:00 PM",
+    "location": "Rosa's Pizza, Main Street",
+    "alibi": [
+      "I ordered a large pepperoni at 6:10 PM, with a receipt to prove it.",
+      "I was waiting outside the restaurant until 7:00 PM for my bus.",
+      "I was at the bowling alley from 7:15 to 8:00 PM, with witnesses.",
+      "I'm vegan, so I'd never buy anything from a pizza place.",
+      "I was in the restroom at the gas station at 6:45 PM."
+    ],
+    "cover": [
+      "I walked past the counter at 6:20 PM and saw the bottles lined up.",
+      "I asked the cashier about the hot sauce at 6:35 PM, just curious.",
+      "I went to the back of the restaurant to use the restroom at 6:50 PM.",
+      "I sat at the window booth for a while after my order at 7:05 PM.",
+      "I left the restaurant right after the bottles disappeared, around 7:30 PM."
+    ],
+    "weakSpot": {
+      "text": "A bottle with the suspect's fingerprints was found in their glovebox, still with the restaurant's price sticker.",
+      "keywords": ["glovebox", "bottle", "sticker"]
+    },
+    "realClues": [
+      "A price sticker from Rosa's, found in a glovebox at 7:50 PM.",
+      "The back door alarm was disabled at 7:12 PM using the staff code.",
+      "A witness saw a hooded figure carrying a cardboard box out the side door."
+    ],
+    "redHerrings": [
+      "A pizza box with a half-eaten crust and a bite-sized dent.",
+      "A flyer for a competing pizza place with 'Milder Is Better' printed on it.",
+      "A box of matches in the trash with a single match missing."
+    ]
+  },
+  {
+    "id": "s20",
+    "title": "The Haunted Thermostat",
+    "crime": "Someone changed the office thermostat from 72 degrees to 60 degrees overnight, freezing the marketing team. The thermostat's little lock is now in a drawer, and nobody knows its code.",
+    "timeWindow": "Tuesday, 8:00 PM to 7:00 AM",
+    "location": "Floor 5 facilities room, Brightwater Media",
+    "alibi": [
+      "I left the office at 6:00 PM and my car's GPS confirms my drive home.",
+      "I was asleep by 10:00 PM, and my smart mattress agrees with me.",
+      "I was at the 24-hour gym from 9:00 to 10:30 PM, which has cameras.",
+      "I arrived at the office at 7:15 AM, after the thermostat was changed.",
+      "I wear three sweaters at all times and would never lower the heat."
+    ],
+    "cover": [
+      "I walked past the facilities room at 8:30 PM on my way to the lobby.",
+      "I was in the building's loading dock at 9:00 PM, dropping off a package.",
+      "I was in the stairwell at 9:30 PM, taking a phone call.",
+      "I stayed late to finish a report and left through the side door at 10:15 PM.",
+      "I came back at 6:45 AM to pick up my forgotten headphones."
+    ],
+    "weakSpot": {
+      "text": "The thermostat code was set to the suspect's birthday, and they're the only one who knows it.",
+      "keywords": ["code", "birthday", "thermostat"]
+    },
+    "realClues": [
+      "The thermostat lock is in a drawer with a note reading '0614', which matches a birthday.",
+      "The facilities room door was opened at 9:44 PM with a manager's keycard.",
+      "The thermostat logs show the new setting entered at 9:50 PM."
+    ],
+    "redHerrings": [
+      "A space heater with a sticky note reading 'Not My Problem.'",
+      "A stack of icy-cold cups in the marketing team's fridge.",
+      "A fan that is turned all the way up and labeled 'Mine.'"
+    ]
+  },
+  {
+    "id": "s21",
+    "title": "The Missing Bread Machine",
+    "crime": "The Pastor's prized bread machine disappeared from the church kitchen during the potluck. It was returned an hour later with a note: 'Thanks for the loaf.'",
+    "timeWindow": "Sunday, 12:00 to 1:30 PM",
+    "location": "Church kitchen, Riverside Chapel",
+    "alibi": [
+      "I was in the sanctuary for the entire service, then joined the choir.",
+      "I was in the choir room signing hymn sheets from 12:10 to 12:40 PM.",
+      "I was on the phone with my daughter in Oregon from 12:45 to 1:10 PM.",
+      "I helped the ushers collect the offering at 1:15 PM.",
+      "I cannot bake, which is why I always bring store-bought rolls."
+    ],
+    "cover": [
+      "I walked past the kitchen at 12:20 PM looking for the coffee urn.",
+      "I went down the hall to the restroom at 12:35 PM.",
+      "I was in the kitchen at 12:50 PM refilling the lemonade pitcher.",
+      "I was in the parking lot loading my car at 1:00 PM, but I didn't take anything.",
+      "I put a casserole in the fridge around 1:20 PM and left right away."
+    ],
+    "weakSpot": {
+      "text": "Flour from the church's supply closet was found on the suspect's car floor mats, along with the returned note's ink.",
+      "keywords": ["flour", "car", "ink", "note"]
+    },
+    "realClues": [
+      "Flour handprints on the bread machine's lid, from someone who wasn't wearing gloves.",
+      "The returned note was written with the same pen as the sign-in sheet.",
+      "A parking lot camera shows a minivan that left at 1:02 PM with a bulky box."
+    ],
+    "redHerrings": [
+      "A recipe card for banana bread with 'NOT THE BREAD MACHINE!' written on it.",
+      "A coupon for a local bakery, unused and crumpled.",
+      "A dough hook found in the sanctuary's flower arrangement."
+    ]
+  },
+  {
+    "id": "s22",
+    "title": "The Leaked Group Chat",
+    "crime": "A screenshot of the 'Friends Who Hate Gary' group chat, which included Gary's birthday plans, was posted to the neighborhood bulletin board. Gary has now seen it.",
+    "timeWindow": "Wednesday, 8:00 to 9:30 PM",
+    "location": "Neighborhood bulletin board, Elm Park",
+    "alibi": [
+      "I was on a video game call with my teammates from 8:00 to 9:30 PM.",
+      "I was at my night class from 8:00 to 9:15 PM, where I took notes.",
+      "I sent a text to my mom at 8:50 PM, which proves I was home.",
+      "I don't use the bulletin board, because I think it's for old people.",
+      "I'm the one who got Gary a birthday card, so why would I leak it?"
+    ],
+    "cover": [
+      "I walked past the bulletin board at 8:30 PM with my dog.",
+      "I took a screenshot of the group chat at 8:40 PM to show a friend.",
+      "I checked the bulletin board for lost cat posters at 9:00 PM.",
+      "I went to the park bench at 9:10 PM to answer some messages.",
+      "I was on my way to the convenience store at 9:20 PM."
+    ],
+    "weakSpot": {
+      "text": "The bulletin board's pushpin came from the suspect's craft box, and the screenshot was printed on their home printer.",
+      "keywords": ["pushpin", "printer", "craft", "screenshot"]
+    },
+    "realClues": [
+      "A printed screenshot with a thumbprint in ink, found on the bulletin board.",
+      "The park's free WiFi log shows a laptop uploading an image at 8:52 PM.",
+      "A pushpin matching a brand sold only at a specific craft store, found in the grass."
+    ],
+    "redHerrings": [
+      "A missing cat poster with a crayon drawing of a dog on it.",
+      "A torn scrap of a birthday card with 'Happy Bday, Gary' on it.",
+      "A sticky note reading 'Gary is a 10/10 human' with a question mark."
+    ]
+  },
+  {
+    "id": "s23",
+    "title": "The Overdue Library Book",
+    "crime": "A rare, very overdue copy of a cookbook titled 'Murder, Mayhem and a Little Salt' has vanished from the public library. The librarian has aged visibly.",
+    "timeWindow": "Thursday, 2:00 to 4:00 PM",
+    "location": "Westbrook Public Library, reference section",
+    "alibi": [
+      "I was in the children's section helping my son with his reading from 2:00 to 3:30 PM.",
+      "I was in the computer lab checking my email until 4:05 PM.",
+      "I was at the dentist down the street from 2:30 to 3:15 PM.",
+      "My library card was used to check out a different book at 3:20 PM.",
+      "I hate cooking so much that I've never even opened a cookbook."
+    ],
+    "cover": [
+      "I walked through the reference section at 2:15 PM looking for maps.",
+      "I was in the reading room at 2:40 PM, reading a magazine.",
+      "I went to the restroom near the reference desk at 3:00 PM.",
+      "I stopped by the reference section again at 3:45 PM to check the shelves.",
+      "I returned a stack of old DVDs to the drop box at 3:55 PM."
+    ],
+    "weakSpot": {
+      "text": "The overdue cookbook's return slip was found in the suspect's tote bag, with a recipe for salt-cured cod written in the margins.",
+      "keywords": ["tote", "bag", "slip", "cod"]
+    },
+    "realClues": [
+      "An empty spot on the shelf, with a faint salt crust on the carpet nearby.",
+      "A library card scan at the reference desk at 3:10 PM, but no checkout.",
+      "A return slip with a handwritten recipe for cod, dated last week."
+    ],
+    "redHerrings": [
+      "A pair of reading glasses with a broken arm, abandoned on a table.",
+      "A library fine notice for a book about knitting, unpaid.",
+      "A bookmark shaped like a pickle, left in a nonfiction section."
+    ]
+  },
+  {
+    "id": "s24",
+    "title": "The Bowling Score Swap",
+    "crime": "The bowling alley's scoreboard was hacked during the league championship, turning Dale's 287 into a sad 'Gutter Night.' The new total gives the trophy to Carla's team by two points.",
+    "timeWindow": "Friday, 9:00 to 10:30 PM",
+    "location": "Strike Zone Lanes, lane 14 scoreboard panel",
+    "alibi": [
+      "I was on lane 9 from 9:00 to 10:30 PM, and my team has the scorecard.",
+      "I was at the snack bar buying nachos with my son at 9:20 PM.",
+      "I was in the restroom at 9:45 PM, which I'm sure someone else saw.",
+      "I was on the phone with my bowling coach from 10:00 to 10:20 PM.",
+      "I can't use a computer. I still write my scores on paper."
+    ],
+    "cover": [
+      "I walked past lane 14 at 9:10 PM on my way to the shoe rental.",
+      "I stopped by the scoreboard at 9:40 PM to check the standings.",
+      "I went to the back office at 10:05 PM to ask for a new ball.",
+      "I was at the concession stand at 10:15 PM, waiting for fries.",
+      "I left the building right after the championship at 10:30 PM."
+    ],
+    "weakSpot": {
+      "text": "The hacked scoreboard was logged in using a password that is the suspect's old bowling league number, 1987.",
+      "keywords": ["password", "1987", "scoreboard", "login"]
+    },
+    "realClues": [
+      "A login to the scoreboard panel at 9:52 PM using a 1987 password.",
+      "A sticky note with 'Gutter' and '1987' written next to the scoreboard.",
+      "A witness saw a person with a bowling bag enter the back office at 9:50 PM."
+    ],
+    "redHerrings": [
+      "A pizza crust found inside a bowling ball bag, mysteriously warm.",
+      "A chalkboard that reads 'Dale Is The Best!' with the word 'best' scratched out.",
+      "A set of rental shoes, one size too small, in the lost-and-found."
+    ]
+  },
+  {
+    "id": "s25",
+    "title": "The Mystery Sandwich",
+    "crime": "A turkey and provolone sandwich labeled 'DO NOT EAT, PROPERTY OF GREG' was eaten in the staff fridge. Greg has been staring into the fridge for twenty minutes, quietly.",
+    "timeWindow": "Wednesday, 12:30 to 1:15 PM",
+    "location": "Staff fridge, Pinecrest Dental Clinic",
+    "alibi": [
+      "I was with a patient in chair 3 from 12:30 to 1:10 PM, which is in the chart.",
+      "I was at the front desk filing insurance forms from 12:35 to 1:00 PM.",
+      "I was in the X-ray room from 1:00 to 1:15 PM, with the door logged.",
+      "I went out to get a coffee at 12:20 PM and I came back at 12:40 PM.",
+      "I'm lactose intolerant, so provolone is basically poison to me."
+    ],
+    "cover": [
+      "I walked past the fridge at 12:40 PM to grab a yogurt.",
+      "I was in the break room at 12:50 PM filling my water bottle.",
+      "I opened the fridge at 1:00 PM to check if the milk was still good.",
+      "I was in the supply closet at 1:05 PM looking for disposable gloves.",
+      "I went back to chair 3 at 1:10 PM and started cleaning up."
+    ],
+    "weakSpot": {
+      "text": "Dental floss from the suspect's kit was found in the sandwich wrapper, which they use to floss after lunch.",
+      "keywords": ["floss", "wrapper", "kit"]
+    },
+    "realClues": [
+      "A crust crumb matching the suspect's favorite brand, tucked in their cardigan.",
+      "The staff fridge door was opened at 12:58 PM using a clinic-issued keycard.",
+      "A partly-eaten sandwich wrapper with a clinic-printed logo, in the trash."
+    ],
+    "redHerrings": [
+      "A stack of 'Smile Today!' stickers from the reception desk, half missing.",
+      "A pamphlet on flossing, folded into a tiny airplane.",
+      "A pack of gum, unopened, with a sticky note saying 'for a clean mouth.'"
+    ]
+  },
+  {
+    "id": "s26",
+    "title": "The Lost Rubber Chicken",
+    "crime": "The beloved rubber chicken used in every Monday morning team meeting for good luck has been stolen from the conference room. The team's presentation is ruined. The team is in tears.",
+    "timeWindow": "Monday, 8:30 to 9:00 AM",
+    "location": "Conference room C, Apex Logistics",
+    "alibi": [
+      "I was in the parking garage on a call with the factory from 8:30 to 8:55 AM.",
+      "I was in the mail room signing for a package at 8:40 AM.",
+      "My cubicle camera shows me typing at 8:35 AM, with the chicken nowhere in sight.",
+      "I was in the coffee line from 8:50 to 9:00 AM with three witnesses.",
+      "I'm allergic to poultry. I can't even be in the same room as a chicken."
+    ],
+    "cover": [
+      "I walked past conference room C at 8:35 AM and waved at the team.",
+      "I was in the conference room at 8:45 AM to set up the projector.",
+      "I was in the hallway at 8:50 AM wiping down the whiteboard.",
+      "I got a bagel from the kitchen at 8:55 AM and took it to my desk.",
+      "I stopped at the copy room at 9:00 AM to print the agenda."
+    ],
+    "weakSpot": {
+      "text": "The chicken's wing was found in the suspect's desk drawer, which they claimed to have never opened this week.",
+      "keywords": ["wing", "drawer", "desk"]
+    },
+    "realClues": [
+      "A rubber chicken wing in a desk drawer, sticky with fresh glue.",
+      "The conference room projector was turned on at 8:45 PM the previous night.",
+      "A witness saw someone with a large bag in the stairwell at 8:48 AM."
+    ],
+    "redHerrings": [
+      "A stuffed owl wearing a tiny tie, sitting alone on the windowsill.",
+      "A poster of a ballerina with a note reading 'Ballet Is Better.'",
+      "A pack of rubber bands on the table, tangled into a nest."
+    ]
+  },
+  {
+    "id": "s27",
+    "title": "The Garage Sale Mystery",
+    "crime": "A handmade wooden birdhouse, marked at $3, was sold at the Pruitt garage sale. The buyer returned an hour later, furious, and said the birdhouse contained a $50 bill and a love letter.",
+    "timeWindow": "Saturday, 8:00 to 11:00 AM",
+    "location": "Pruitt family driveway, garage sale",
+    "alibi": [
+      "I was at the bakery picking up a birthday cake from 8:10 to 8:40 AM.",
+      "I was on a 9:00 AM livestream about my houseplants, which has a recording.",
+      "I was at the gym from 10:00 to 10:45 AM, and the staff remember me.",
+      "I was watching the Pruitt kids at the lemonade stand at 9:30 AM.",
+      "I don't believe in love letters. I'm more of a spreadsheet person."
+    ],
+    "cover": [
+      "I came by the garage sale at 8:20 AM and walked around the tables.",
+      "I bought a jar of pickles at 8:50 AM from the Pruitts.",
+      "I sat on the curb at 9:45 AM and watched the cars go by.",
+      "I talked to the birdhouse man at 10:05 AM about his woodworking.",
+      "I was on my phone near the garage at 10:20 AM, looking at prices."
+    ],
+    "weakSpot": {
+      "text": "The $50 bill has the suspect's name written on the back, and the love letter is in the suspect's handwriting.",
+      "keywords": ["fifty", "$50", "letter", "handwriting"]
+    },
+    "realClues": [
+      "A $50 bill inside a wooden birdhouse, folded twice with a bit of glue.",
+      "The love letter was written on paper from the suspect's notebook.",
+      "Security camera from the bakery shows a man with a birdhouse at 8:33 AM."
+    ],
+    "redHerrings": [
+      "A jar of pickles with a hand-drawn label reading 'PLEASE PICK UP.'",
+      "A set of old keys labeled 'MAYBE THE SHED.'",
+      "A tiny doll wearing a sweater, marked 'NOT FOR SALE.'"
+    ]
+  },
+  {
+    "id": "s28",
+    "title": "The Stolen Tuba",
+    "crime": "The marching band's tuba was taken from the school's music room on the night before the parade. A single note was left on the music stand: a very out-of-tune C.",
+    "timeWindow": "Friday, 6:00 to 9:00 PM",
+    "location": "Music room B, Oakvale High School",
+    "alibi": [
+      "I was at the football game in the stands from 6:00 to 9:00 PM.",
+      "I was in the cafeteria helping the booster club from 6:30 to 8:00 PM.",
+      "I was on stage rehearsing the spring musical until 8:30 PM.",
+      "I was at the front gate taking tickets from 7:00 to 8:45 PM.",
+      "I can't play the tuba, and I've never even touched one."
+    ],
+    "cover": [
+      "I walked past music room B at 6:20 PM on the way to the bathroom.",
+      "I was in the hallway at 7:10 PM looking for my lost trumpet mouthpiece.",
+      "I was in the music room at 7:45 PM to drop off sheet music.",
+      "I was on the bleachers at 8:00 PM, watching the halftime show.",
+      "I walked home along the back road at 8:50 PM."
+    ],
+    "weakSpot": {
+      "text": "A tuba-shaped dent in the back of the suspect's pickup truck, which was parked behind the music room at 8:15 PM.",
+      "keywords": ["pickup", "truck", "dent", "parked"]
+    },
+    "realClues": [
+      "A tuba-sized footprint in the wet grass behind the music room.",
+      "The gate camera caught a pickup truck leaving the lot at 8:22 PM with the lights off.",
+      "A bent sheet music stand with a fingerprint on the clamp."
+    ],
+    "redHerrings": [
+      "A pair of tiny cymbals left in the janitor's closet, unpolished.",
+      "A banner reading 'GO OAKVALE!' with a tuba drawn on it in marker.",
+      "A marching band hat in the parking lot that nobody has claimed."
+    ]
+  },
+  {
+    "id": "s29",
+    "title": "The Missing Ice Cream Truck",
+    "crime": "The neighborhood ice cream truck, with its famous jingle still stuck in everyone's head, has vanished from the Oakwood cul-de-sac. The only evidence is a trail of sprinkles leading toward the lake.",
+    "timeWindow": "Saturday, 4:00 to 6:00 PM",
+    "location": "Oakwood cul-de-sac, near the lake",
+    "alibi": [
+      "I was at the lake with my family from 4:00 to 6:00 PM, and my son has photos.",
+      "I was in my yard mowing the grass from 4:10 to 5:00 PM.",
+      "I was at the hardware store picking up a new hose at 4:30 PM.",
+      "I was on a bike ride with the neighborhood club until 5:45 PM.",
+      "I'm lactose intolerant, so I can't even stand near the ice cream truck."
+    ],
+    "cover": [
+      "I walked past the cul-de-sac at 4:15 PM and heard the jingle playing.",
+      "I bought a popsicle from the truck at 4:20 PM, then walked away.",
+      "I stood by the lake at 4:40 PM, watching the boats go by.",
+      "I was on the boat dock at 5:20 PM, untying the rowboat.",
+      "I got a sprinkle cone at 5:50 PM and walked home slowly."
+    ],
+    "weakSpot": {
+      "text": "The truck's spare key was found on the suspect's keychain, the one with the lake's dock number on it.",
+      "keywords": ["key", "keychain", "dock", "spare"]
+    },
+    "realClues": [
+      "A trail of sprinkles leading from the cul-de-sac to the boat dock.",
+      "A spare key with a dock number tag, found in the water near the rowboat.",
+      "The truck's GPS stopped transmitting at 5:12 PM, near the boat launch."
+    ],
+    "redHerrings": [
+      "A popsicle stick shaped like a swan, left on the dock.",
+      "A flyer for a 'Lost Dog' that was found in a different neighborhood.",
+      "A stack of frozen sandwiches with 'NOT FOR SALE' stamped on them."
+    ]
+  },
+  {
+    "id": "s30",
+    "title": "The Vanishing Tuxedo Shirt",
+    "crime": "The groom's lucky ruffled shirt, to be worn at tomorrow's wedding, has been stolen from the hotel's second-floor laundry service. A hotel guest is now wearing a bathrobe to the rehearsal dinner.",
+    "timeWindow": "Friday, 3:00 to 4:30 PM",
+    "location": "Harborview Hotel, laundry service room",
+    "alibi": [
+      "I was at the hotel spa from 3:00 to 4:20 PM, with a receipt for a massage.",
+      "I was on the phone with my boss in the lobby from 3:10 to 3:45 PM.",
+      "I was checking in my brother's luggage at the front desk at 3:50 PM.",
+      "I was in the bar ordering a club soda at 4:00 PM, as witnessed by the bartender.",
+      "I'm the maid of honor, so I'd never steal a shirt from the groom."
+    ],
+    "cover": [
+      "I walked past the laundry room at 3:15 PM on the way to the elevator.",
+      "I stopped at the second-floor vending machine at 3:30 PM.",
+      "I was in the hall with my laundry bag at 3:40 PM, looking for the iron.",
+      "I took a long walk around the courtyard at 4:10 PM to clear my head.",
+      "I returned my key card at the front desk at 4:25 PM and went upstairs."
+    ],
+    "weakSpot": {
+      "text": "The hotel's laundry cart tag was found on the suspect's suitcase, scanned at the second floor at 3:44 PM.",
+      "keywords": ["suitcase", "tag", "cart", "laundry"]
+    },
+    "realClues": [
+      "A laundry tag from the second-floor cart, found inside the suspect's suitcase.",
+      "The laundry room's door logged a keycard swipe at 3:42 PM, not from staff.",
+      "A cleaning cart with a shirt-sized gap in the folded towels."
+    ],
+    "redHerrings": [
+      "A pair of cufflinks shaped like tiny forks, left on the vending machine.",
+      "A brochure for the hotel spa with a lipstick kiss on the front.",
+      "A bathrobe embroidered with 'Room 214' but missing its owner."
+    ]
+  }
+]

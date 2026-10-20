@@ -1,0 +1,56 @@
+{
+  "name": "live-interrogation",
+  "productName": "Live Interrogation",
+  "version": "1.0.0",
+  "description": "A real-time, text-only noir deduction game for friends.",
+  "main": "electron/main.js",
+  "author": "Live Interrogation",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "desktop": "electron .",
+    "avatars": "node scripts/gen-avatars.js",
+    "test": "node test/simulate.js",
+    "dist": "electron-builder --mac --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:win": "electron-builder --win"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "socket.io-client": "^4.8.1"
+  },
+  "build": {
+    "appId": "com.livelinterrogation.game",
+    "productName": "Live Interrogation",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "electron/**/*",
+      "server/**/*",
+      "public/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.games"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

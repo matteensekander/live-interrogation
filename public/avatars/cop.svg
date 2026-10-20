@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="cop">
+  
+    <defs>
+      <radialGradient id="spot" cx="50%" cy="28%" r="70%">
+        <stop offset="0%" stop-color="#3b3016"/>
+        <stop offset="55%" stop-color="#15192a"/>
+        <stop offset="100%" stop-color="#07080d"/>
+      </radialGradient>
+      <linearGradient id="grain" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#fff" stop-opacity=".05"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".25"/>
+      </linearGradient>
+    </defs>
+    <rect width="200" height="200" fill="url(#spot)"/>
+    <rect width="200" height="200" fill="url(#grain)"/>
+    <path d="M0 200 L0 170 Q100 150 200 170 L200 200 Z" fill="#050608" opacity=".6"/>
+  
+  <path d="M26 200 Q28 140 100 130 Q172 140 174 200 Z" fill="#1d3557"/>
+  <rect x="88" y="118" width="24" height="18" fill="#e8b696"/>
+  <ellipse cx="100" cy="92" rx="40" ry="48" fill="#e8b696"/><ellipse cx="60" cy="96" rx="6" ry="9" fill="#e8b696"/><ellipse cx="140" cy="96" rx="6" ry="9" fill="#e8b696"/>
+  <path d="M62 80 Q60 48 100 44 Q140 48 138 80 Q126 62 100 60 Q74 62 62 80 Z" fill="#b9b9b9"/>
+  
+  
+  
+  
+    <ellipse cx="82" cy="94" rx="5" ry="4.2" fill="#1b1b1b"/>
+    <ellipse cx="118" cy="94" rx="5" ry="4.2" fill="#1b1b1b"/>
+    <circle cx="83.5" cy="92.5" r="1.4" fill="#fff" opacity=".8"/>
+    <circle cx="119.5" cy="92.5" r="1.4" fill="#fff" opacity=".8"/>
+  <path d="M70 84 Q82 80 92 84 M108 84 Q118 80 130 84" stroke="#b9b9b9" stroke-width="5" fill="none" stroke-linecap="round"/>
+  
+  
+  
+  <path d="M84 118 Q100 110 116 118 Q114 128 100 124 Q86 128 84 118 Z" fill="#b9b9b9"/>
+  <path d="M88 126 L112 126" stroke="#3a1c14" stroke-width="3" stroke-linecap="round"/>
+  
+  
+  
+  
+  <path d="M130 150 l3 -6 l3 6 l-1 -4 h-4 z" fill="#f3c742"/><circle cx="133" cy="150" r="4" fill="#f3c742" stroke="#8a6a12" stroke-width="1"/>
+  
+    <path d="M62 62 Q64 30 100 30 Q136 30 138 62 Z" fill="#1d3557"/>
+    <path d="M96 58 L150 66 Q152 72 140 72 L96 66 Z" fill="#1d3557"/>
+</svg>
