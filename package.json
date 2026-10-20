@@ -3,13 +3,13 @@
   "productName": "Live Interrogation",
   "version": "1.0.0",
   "description": "A real-time, text-only noir deduction game for friends.",
-  "main": "electron/main.js",
+  "main": "server/index.js",
   "author": "Live Interrogation",
   "license": "MIT",
   "private": true,
   "scripts": {
     "start": "node server/index.js",
-    "desktop": "electron .",
+    "desktop": "electron electron/main.js",
     "avatars": "node scripts/gen-avatars.js",
     "test": "node test/simulate.js",
     "dist": "electron-builder --mac --win",
@@ -51,6 +51,9 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
+    },
+    "extraMetadata": {
+      "main": "electron/main.js"
     }
   }
 }
